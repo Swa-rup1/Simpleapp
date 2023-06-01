@@ -15,7 +15,7 @@
 
   #logo{
     
-      width: 25px; /* adjust the width as desired */
+      width: 55px; /* adjust the width as desired */
       height: auto; /* adjust the height as desired */
       display: block;
       margin: 0 auto; /* center the image horizontally */
@@ -44,6 +44,10 @@
     text-decoration: none;
     text-align: center;
     color: black;
+  }
+
+  .navbar-list-item a:hover{
+    color: #0000ff;
   }
 
   a.navbar-right-btn,button{
@@ -150,9 +154,9 @@ img#left{
 img#right{
   
   height:350px;
-  width:230px;
+  width:250px;
   margin-top:-130px;
-  margin-left: -100px;;
+  margin-left: -25px;;
   /* border: 1px solid red; */
 
   border-radius: 8px;
